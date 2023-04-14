@@ -34,6 +34,7 @@
   },
   "resources": [
     {"id":{"name":"obj_hoe_metaphorical","path":"objects/obj_hoe_metaphorical/obj_hoe_metaphorical.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_chef","path":"objects/obj_chef/obj_chef.yy",},},
     {"id":{"name":"obj_cow","path":"objects/obj_cow/obj_cow.yy",},},
     {"id":{"name":"Rm_Desert_Maybe","path":"rooms/Rm_Desert_Maybe/Rm_Desert_Maybe.yy",},},
@@ -45,6 +46,11 @@
     {"id":{"name":"sp_man","path":"sprites/sp_man/sp_man.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Rm_Grass","path":"rooms/Rm_Grass/Rm_Grass.yy",},},
+    {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
+    {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
+    {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Rm_Grass","path":"rooms/Rm_Grass/Rm_Grass.yy",},},
