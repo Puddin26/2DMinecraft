@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-depth = -y
+if  !you_put_seeds_in_in_time {
+	instance_destroy(self);
+}

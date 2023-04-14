@@ -16,9 +16,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_hoe_metaphorical","order":4,"path":"objects/obj_hoe_metaphorical/obj_hoe_metaphorical.yy",},
     {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
-    {"name":"obj_person","order":2,"path":"objects/obj_person/obj_person.yy",},
+    {"name":"Rm_Desert_Maybe","order":1,"path":"rooms/Rm_Desert_Maybe/Rm_Desert_Maybe.yy",},
+    {"name":"sp_dirt","order":3,"path":"sprites/sp_dirt/sp_dirt.yy",},
     {"name":"sp_cow","order":1,"path":"sprites/sp_cow/sp_cow.yy",},
+    {"name":"obj_dirt","order":3,"path":"objects/obj_dirt/obj_dirt.yy",},
+    {"name":"Rm_Mountain_Maybe","order":2,"path":"rooms/Rm_Mountain_Maybe/Rm_Mountain_Maybe.yy",},
     {"name":"sp_man","order":2,"path":"sprites/sp_man/sp_man.yy",},
+    {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
   ],
 }
