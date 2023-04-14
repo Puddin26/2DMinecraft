@@ -15,5 +15,10 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
+    {"name":"obj_person","order":2,"path":"objects/obj_person/obj_person.yy",},
+    {"name":"sp_cow","order":1,"path":"sprites/sp_cow/sp_cow.yy",},
+    {"name":"sp_man","order":2,"path":"sprites/sp_man/sp_man.yy",},
+  ],
 }

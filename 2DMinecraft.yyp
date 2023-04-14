@@ -34,7 +34,11 @@
   },
   "resources": [
     {"id":{"name":"obj_chef","path":"objects/obj_chef/obj_chef.yy",},},
+    {"id":{"name":"obj_cow","path":"objects/obj_cow/obj_cow.yy",},},
+    {"id":{"name":"obj_person","path":"objects/obj_person/obj_person.yy",},},
+    {"id":{"name":"sp_cow","path":"sprites/sp_cow/sp_cow.yy",},},
     {"id":{"name":"sp_chefevil","path":"sprites/sp_chefevil/sp_chefevil.yy",},},
+    {"id":{"name":"sp_man","path":"sprites/sp_man/sp_man.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
