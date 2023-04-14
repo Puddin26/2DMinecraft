@@ -33,8 +33,13 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_chef","path":"objects/obj_chef/obj_chef.yy",},},
+    {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
+    {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"sp_chefevil","path":"sprites/sp_chefevil/sp_chefevil.yy",},},
+    {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
