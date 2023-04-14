@@ -16,9 +16,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
     {"name":"obj_person","order":2,"path":"objects/obj_person/obj_person.yy",},
     {"name":"sp_cow","order":1,"path":"sprites/sp_cow/sp_cow.yy",},
     {"name":"sp_man","order":2,"path":"sprites/sp_man/sp_man.yy",},
+    {"name":"spr_player_up","order":6,"path":"sprites/spr_player_up/spr_player_up.yy",},
+    {"name":"spr_player_down","order":3,"path":"sprites/spr_player_down/spr_player_down.yy",},
+    {"name":"spr_player_right","order":5,"path":"sprites/spr_player_right/spr_player_right.yy",},
+    {"name":"spr_player_left","order":4,"path":"sprites/spr_player_left/spr_player_left.yy",},
   ],
 }
