@@ -15,7 +15,5 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
-    {"name":"spr_square","order":1,"path":"sprites/spr_square/spr_square.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }
