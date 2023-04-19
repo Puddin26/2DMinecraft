@@ -41,12 +41,3 @@ if (obj_player.x > 1000)
 
 	}
 }
-
-if (obj_player.x <= 540)
-{
-	with (obj_player)
-	{
-		room_goto(Home); obj_player.x = 1250; obj_player.y = 1250; speed = 0;
-
-	}
-}

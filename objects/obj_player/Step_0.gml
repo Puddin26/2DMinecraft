@@ -1,8 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
+if place_meeting(x, y, obj_seeds) {
+	obj_inventory.items = Items.SEEDS
+}
+else if place_meeting(x, y, obj_hoe) {
+	obj_inventory.items = Items.HOE
+}
+
 
 depth = -y;
-
 
 camera_set_view_pos(view_camera[0],
 x-(camera_get_view_height(view_camera[0])/2), 
