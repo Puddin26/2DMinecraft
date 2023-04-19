@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_chefevil",
-    "path": "sprites/sp_chefevil/sp_chefevil.yy",
+    "name": "spr_chefevil",
+    "path": "sprites/spr_chefevil/spr_chefevil.yy",
   },
   "spriteMaskId": null,
   "visible": true,

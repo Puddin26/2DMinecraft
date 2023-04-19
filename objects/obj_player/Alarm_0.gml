@@ -4,7 +4,7 @@
 hunger -= 10;
 
 if hunger > 0 {
-	alarm[0] = 30;
+	alarm[0] = 30*room_speed;
 }
 else {
 	alarm[1] = 5;

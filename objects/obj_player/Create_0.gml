@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 randomize();
+instance_create_layer(x, y, "Player", obj_ghost);
 
 //spd = [0,0];
 //movement_speed = 10
@@ -13,5 +14,5 @@ dead = false;
 
 
 //hunger decreaser
-alarm[0] = 120;
+alarm[0] = 120*room_speed;
 
