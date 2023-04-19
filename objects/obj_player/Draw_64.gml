@@ -9,7 +9,7 @@
 draw_self();
 
 if (dead = true) {
-//something
+	//instance_destroy(self);
 }
 
 //outlines

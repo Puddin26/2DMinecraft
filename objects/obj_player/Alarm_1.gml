@@ -4,7 +4,7 @@
 hp -= 10;
 
 if hp > 0 {
-	alarm[1] = 10;
+	alarm[1] = 10*room_speed;
 }
 else {
 	dead = true;
