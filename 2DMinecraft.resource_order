@@ -22,6 +22,8 @@
     {"name":"obj_inventory","order":4,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
+    {"name":"obj_wall","order":10,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_dirt","order":3,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"spr_cow","order":1,"path":"sprites/spr_cow/spr_cow.yy",},
     {"name":"spr_ghost","order":7,"path":"sprites/spr_ghost/spr_ghost.yy",},

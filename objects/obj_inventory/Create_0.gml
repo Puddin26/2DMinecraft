@@ -9,3 +9,4 @@ enum Items
 }
 
 items = Items.HOE;
+draw = false;

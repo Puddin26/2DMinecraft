@@ -33,11 +33,3 @@ if (x <= -200) {
 	}
 }
 
-if (obj_player.x > 1000)
-{
-	with (obj_player)
-	{
-		move_towards_point(x-1, y, min(3,(max(obj_player.x,1000)-1000)/150));
-
-	}
-}
