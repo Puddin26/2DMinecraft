@@ -7,6 +7,7 @@ else if place_meeting(x, y, obj_hoe) and keyboard_check_pressed(vk_space) {
 	obj_inventory.items = Items.HOE;
 }
 
+
 depth = -y;
 
 //camera_set_view_pos(view_camera[0],

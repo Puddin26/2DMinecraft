@@ -5,6 +5,23 @@
 //all the alarms eventually need to be multiplied by room speed,
 //leaving it fast for debugging purposes
 
+if place_meeting(x, y, obj_chicken){
+	draw_set_color(c_white);
+	if(obj_chicken.has_egg){
+		draw_text_transformed(x+5, y-4, "now to grab a single egg with X",  0.5, 0.5, 0);
+		if keyboard_check(ord("X")){
+			obj_chicken.has_egg = false;
+			obj_egg.num_eggs += 1;
+		}
+	}else{
+		if keyboard_check(ord("X")){
+			draw_text_transformed(x+5, y-4, "please wait a moment.",  0.5, 0.5, 0);
+		}
+	}
+	
+	
+}
+
 if (dead = true) {
 	//instance_destroy(self);
 }
@@ -26,6 +43,7 @@ draw_rectangle(room_width-150, 30, room_width-150+hunger, 50, false);
 //health
 draw_set_color(c_green);
 draw_rectangle(room_width-150, 60, room_width-150+hp, 80, false);
+
 
 
 

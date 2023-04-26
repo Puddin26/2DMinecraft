@@ -10,8 +10,7 @@ if place_meeting(x, y+10, obj_water)
 
 	if place_meeting(x+10, y, obj_water)
 	{hspeed*=-1}
-	
-	
+
 
 if (collision_circle(x, y, 350, obj_player, true, true) and not global.is_hiding)
 {
