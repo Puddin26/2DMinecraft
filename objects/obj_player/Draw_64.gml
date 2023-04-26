@@ -36,7 +36,7 @@ if place_meeting(x, y, obj_cow){
 }
 
 if (dead = true) {
-	//instance_destroy(self);
+	//instance_destroy(self); ??
 }
 
 
@@ -50,11 +50,11 @@ draw_rectangle(room_width-155, 27, room_width-45, 53, false);
 draw_rectangle(room_width-155, 57, room_width-45, 83, false);
 
 //hunger
-draw_set_color(c_red);
+draw_set_color(c_fuchsia);
 draw_rectangle(room_width-150, 30, room_width-150+hunger, 50, false);
 
 //health
-draw_set_color(c_green);
+draw_set_color(c_lime);
 draw_rectangle(room_width-150, 60, room_width-150+hp, 80, false);
 
 
