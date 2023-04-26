@@ -33,6 +33,7 @@ switch (items) {
 				if mouse_check_button(mb_left) and position_meeting(mouse_x, mouse_y, self) and obj_inventory.in_range
 				and sprite_index = spr_wheat {
 					obj_seeds.num_seeds += image_index+1;
+					obj_wheat.num_wheat += image_index;
 					sprite_index = spr_dirt;
 					image_index = 0;
 				//running the create statement once again- is it more efficent to instance destroy and create?
