@@ -4,18 +4,37 @@
 
 
 if in_range {
-	if items = Items.HOE and !position_meeting(mouse_x, mouse_y, obj_dirt) {
-		draw = true;
+	draw = false; 
+	if items = Items.HOE {
+		if !position_meeting(mouse_x, mouse_y, obj_dirt)
+		 { draw = true; }
+		else {
+			with obj_dirt {
+				if position_meeting(mouse_x, mouse_y, self) and sprite_index = spr_wheat
+				{ obj_inventory.draw = true; }
+			}
+		}
 	}
-	else if items = Items.SEEDS and position_meeting(mouse_x, mouse_y, obj_dirt) and instance_nearest(mouse_x, mouse_y, obj_dirt).image_index = 0 {
-		draw = true;
+	
+	else if items = Items.SEEDS {
+		with obj_dirt {
+			if position_meeting(mouse_x, mouse_y, self) 
+		       and image_index = 0 and sprite_index = spr_dirt {
+				obj_inventory.draw = true;
+		    }
+		}
+		if obj_seeds.num_seeds = 0 {
+			draw = false;
+		}
+	} 
+	
+	if draw {
+		draw_set_color(c_white);
 	}
-	else { draw = false; }
-}
-
-if draw and in_range {
-	draw_set_color(c_white);
-	draw_rectangle(x_origin, y_origin, x_origin+20, y_origin+20, true);
+	else {
+		draw_set_color(c_grey);
+	}
+	draw_rectangle(x_origin, y_origin, x_origin+40, y_origin+40, true);
 }
 
 x = x_origin;
