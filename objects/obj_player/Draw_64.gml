@@ -5,12 +5,14 @@
 //all the alarms eventually need to be multiplied by room speed,
 //leaving it fast for debugging purposes
 
-
-draw_self();
-
 if (dead = true) {
 	//instance_destroy(self);
 }
+
+
+//outlines's outline
+draw_set_color(c_black);
+draw_rectangle(room_width-158, 24, room_width-42, 86, false);
 
 //outlines
 draw_set_color(c_grey);
