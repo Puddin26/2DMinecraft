@@ -5,6 +5,7 @@
 //all the alarms eventually need to be multiplied by room speed,
 //leaving it fast for debugging purposes
 
+// get egg
 if place_meeting(x, y, obj_chicken){
 	draw_set_color(c_white);
 	if(obj_chicken.has_egg){
@@ -18,8 +19,20 @@ if place_meeting(x, y, obj_chicken){
 			draw_text_transformed(x+5, y-4, "please wait a moment.",  0.5, 0.5, 0);
 		}
 	}
-	
-	
+}
+
+//get milk
+if place_meeting(x, y, obj_cow){
+	draw_set_color(c_white);
+	if(obj_cow.has_milk){
+		draw_text_transformed(x+5, y-4, "mr.cow likes you, now press X",  0.5, 0.5, 0);
+		if keyboard_check(ord("X")){
+			obj_cow.has_milk = false;
+			omilk.num_milk += 1;
+		}
+	}else{
+			draw_text_transformed(x+5, y-4, "mr.cow is hungry, try get him some snack",  0.5, 0.5, 0);
+	}
 }
 
 if (dead = true) {

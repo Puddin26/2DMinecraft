@@ -25,11 +25,10 @@ if (state = states.free){
 		moving = true
 	}
 // allow player to get milk
-	/*if (distance_to_object(obj_player) < 5){
-		if keyboard_check_released("E"){
-			// milk + 1 ?
+	if (distance_to_object(obj_player) < 3){
+		if keyboard_check_released(vk_space){
+			omilk.num_milk += 1
 		}
 	}
-	*/
 }
 
