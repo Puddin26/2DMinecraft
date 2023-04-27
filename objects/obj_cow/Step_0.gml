@@ -9,7 +9,7 @@ randomize()
 
 if (state = states.free){
 // moving every few seconds
-	if timer != room_speed * 3{
+	if timer != room_speed * 3 {
 	timer ++
 	moving = false
 	}
@@ -30,5 +30,16 @@ if (state = states.free){
 			omilk.num_milk += 1
 		}
 	}
+}
+
+//which way cow is facing
+if sign(xprevious-x) > 0 { image_xscale = 1; }
+else if sign(xprevious-x) < 0 { image_xscale = -1; }
+
+//code for the cow as an auto-tiller
+x_origin = x-x%40;
+y_origin = y-y%40;
+if !position_meeting(x, y, obj_dirt) {
+	instance_create_layer(x_origin, y_origin, "Ground", obj_dirt);
 }
 
