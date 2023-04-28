@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = clamp(x, 0, room_width-3)
-y = clamp(y, 0, room_height-3)
+x = clamp(x, 15, room_width-15)
+y = clamp(y, 15, room_height-15)
 depth = -y;
 
 randomize()

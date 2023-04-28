@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if instance_exists(obj_dirt) {
+show_debug_message(string(instance_number(obj_dirt))); }
+
+
 if place_meeting(x, y, obj_seeds) and keyboard_check_pressed(vk_space) {
 	obj_inventory.items = Items.SEEDS;
 }
