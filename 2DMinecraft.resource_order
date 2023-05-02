@@ -17,7 +17,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_chicken","order":20,"path":"sprites/spr_chicken/spr_chicken.yy",},
+<<<<<<< HEAD
     {"name":"obj_cloud","order":6,"path":"objects/obj_cloud/obj_cloud.yy",},
+=======
+>>>>>>> Bohan
     {"name":"obj_hoe","order":8,"path":"objects/obj_hoe/obj_hoe.yy",},
     {"name":"obj_seeds","order":9,"path":"objects/obj_seeds/obj_seeds.yy",},
     {"name":"obj_chickenman","order":18,"path":"objects/obj_chickenman/obj_chickenman.yy",},
@@ -27,6 +30,7 @@
     {"name":"spr_wheat","order":13,"path":"sprites/spr_wheat/spr_wheat.yy",},
     {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
     {"name":"obj_wall","order":10,"path":"objects/obj_wall/obj_wall.yy",},
+<<<<<<< HEAD
     {"name":"spr_anything","order":12,"path":"sprites/spr_anything/spr_anything.yy",},
     {"name":"spr_dirt","order":3,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"obj_chicken","order":19,"path":"objects/obj_chicken/obj_chicken.yy",},
@@ -37,6 +41,16 @@
     {"name":"spr_egg","order":18,"path":"sprites/spr_egg/spr_egg.yy",},
     {"name":"spr_seeds","order":11,"path":"sprites/spr_seeds/spr_seeds.yy",},
     {"name":"spr_cow","order":23,"path":"sprites/spr_cow/spr_cow.yy",},
+=======
+    {"name":"spr_dirt","order":3,"path":"sprites/spr_dirt/spr_dirt.yy",},
+    {"name":"obj_chicken","order":16,"path":"objects/obj_chicken/obj_chicken.yy",},
+    {"name":"spr_chick","order":19,"path":"sprites/spr_chick/spr_chick.yy",},
+    {"name":"spr_ghost","order":7,"path":"sprites/spr_ghost/spr_ghost.yy",},
+    {"name":"spr_wheat_picked","order":14,"path":"sprites/spr_wheat_picked/spr_wheat_picked.yy",},
+    {"name":"spr_egg","order":18,"path":"sprites/spr_egg/spr_egg.yy",},
+    {"name":"spr_seeds","order":11,"path":"sprites/spr_seeds/spr_seeds.yy",},
+    {"name":"spr_cow","order":1,"path":"sprites/spr_cow/spr_cow.yy",},
+>>>>>>> Bohan
     {"name":"obj_windmill","order":13,"path":"objects/obj_windmill/obj_windmill.yy",},
     {"name":"spr_hoe","order":10,"path":"sprites/spr_hoe/spr_hoe.yy",},
     {"name":"spr_apple","order":21,"path":"sprites/spr_apple/spr_apple.yy",},
@@ -48,15 +62,21 @@
     {"name":"obj_ghost","order":5,"path":"objects/obj_ghost/obj_ghost.yy",},
     {"name":"spr_flour","order":16,"path":"sprites/spr_flour/spr_flour.yy",},
     {"name":"obj_tree","order":7,"path":"objects/obj_tree/obj_tree.yy",},
+<<<<<<< HEAD
     {"name":"spr_wind_other","order":9,"path":"sprites/spr_wind_other/spr_wind_other.yy",},
     {"name":"spr_cake","order":22,"path":"sprites/spr_cake/spr_cake.yy",},
+=======
+>>>>>>> Bohan
     {"name":"spr_garbage","order":15,"path":"sprites/spr_garbage/spr_garbage.yy",},
     {"name":"spr_man","order":2,"path":"sprites/spr_man/spr_man.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"omilk","order":14,"path":"objects/omilk/omilk.yy",},
     {"name":"obj_flour","order":12,"path":"objects/obj_flour/obj_flour.yy",},
     {"name":"obj_chick","order":15,"path":"objects/obj_chick/obj_chick.yy",},
+<<<<<<< HEAD
     {"name":"obj_chicken_checker","order":20,"path":"objects/obj_chicken_checker/obj_chicken_checker.yy",},
     {"name":"spr_windmill","order":17,"path":"sprites/spr_windmill/spr_windmill.yy",},
+=======
+>>>>>>> Bohan
   ],
 }

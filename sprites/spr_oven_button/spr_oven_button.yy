@@ -1,18 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_cake",
-<<<<<<< HEAD
-  "bbox_bottom": 73,
-  "bbox_left": 56,
-  "bbox_right": 91,
-  "bbox_top": 44,
-=======
-  "bbox_bottom": 60,
-  "bbox_left": 34,
-  "bbox_right": 61,
-  "bbox_top": 37,
->>>>>>> Bohan
+  "name": "spr_oven_button",
+  "bbox_bottom": 30,
+  "bbox_left": 14,
+  "bbox_right": 52,
+  "bbox_top": 9,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -20,25 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e45efad-8bc4-4457-9653-ba0a9c88cabd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07325af4-af4d-4024-8f89-7dc147f8a9eb",},
   ],
-  "gridX": 2,
-  "gridY": 2,
-<<<<<<< HEAD
-  "height": 128,
-=======
-  "height": 100,
->>>>>>> Bohan
+  "gridX": 0,
+  "gridY": 0,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c71a2cd8-d4ec-40da-a15f-6c574a4b077b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56dcbdf6-c70c-4d1c-9035-9c950b585fab","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-<<<<<<< HEAD
-  "origin": 9,
-=======
   "origin": 0,
->>>>>>> Bohan
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -47,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_cake",
+    "name": "spr_oven_button",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -62,25 +47,20 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7e45efad-8bc4-4457-9653-ba0a9c88cabd","path":"sprites/spr_cake/spr_cake.yy",},},},"Disabled":false,"id":"83b82a1a-defa-4578-bfd0-43fba5ba034d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"07325af4-af4d-4024-8f89-7dc147f8a9eb","path":"sprites/spr_oven_button/spr_oven_button.yy",},},},"Disabled":false,"id":"01f2eb99-6858-4226-a19a-17507fb836c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-<<<<<<< HEAD
-    "xorigin": 66,
-    "yorigin": 52,
-=======
     "xorigin": 0,
     "yorigin": 0,
->>>>>>> Bohan
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -90,9 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-<<<<<<< HEAD
-  "width": 128,
-=======
-  "width": 100,
->>>>>>> Bohan
+  "width": 64,
 }
