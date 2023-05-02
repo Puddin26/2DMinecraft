@@ -13,3 +13,5 @@ enum states
 }
 
 state = states.free
+
+has_milk = true

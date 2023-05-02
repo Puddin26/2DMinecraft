@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sp_windmill",
-    "path": "sprites/sp_windmill/sp_windmill.yy",
+    "name": "spr_windmill",
+    "path": "sprites/spr_windmill/spr_windmill.yy",
   },
   "spriteMaskId": null,
   "visible": true,
