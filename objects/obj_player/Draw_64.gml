@@ -55,6 +55,9 @@ if obj_oven_list.visible {
 		if click_y >= 45 && click_y <= 81 && click_x >= 439 && click_x <= 493{
 			if omilk.num_milk >= 1 && obj_egg.num_eggs >= 1 && obj_flour.num_flour >= 1 {
 				obj_cake.num_cakes += 1
+				 omilk.num_milk -=1
+				 obj_flour.num_flour -= 1
+				 obj_egg.num_eggs -= 1
 				audio_play_sound(snd_fire, 1, false);
 			}
 		}
@@ -62,7 +65,10 @@ if obj_oven_list.visible {
 		// make apple pie
 		if click_y >= 134 && click_y <= 177 && click_x >= 439 && click_x <= 493{
 			if obj_apple.num_apples >= 1 && obj_egg.num_eggs >= 1 && obj_flour.num_flour >= 1 {
-				obj_applepie.num_applepies += 1 
+				obj_applepie.num_applepies += 1
+				omilk.num_milk -=1
+				obj_flour.num_apples -= 1
+				obj_egg.num_eggs -= 1
 				audio_play_sound(snd_fire, 1, false);
 			}
 		}
