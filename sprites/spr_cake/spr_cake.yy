@@ -2,17 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_cake",
-<<<<<<< HEAD
   "bbox_bottom": 73,
   "bbox_left": 56,
   "bbox_right": 91,
   "bbox_top": 44,
-=======
-  "bbox_bottom": 60,
-  "bbox_left": 34,
-  "bbox_right": 61,
-  "bbox_top": 37,
->>>>>>> Bohan
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -24,21 +17,13 @@
   ],
   "gridX": 2,
   "gridY": 2,
-<<<<<<< HEAD
   "height": 128,
-=======
-  "height": 100,
->>>>>>> Bohan
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c71a2cd8-d4ec-40da-a15f-6c574a4b077b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-<<<<<<< HEAD
   "origin": 9,
-=======
-  "origin": 0,
->>>>>>> Bohan
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -74,13 +59,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-<<<<<<< HEAD
     "xorigin": 66,
     "yorigin": 52,
-=======
-    "xorigin": 0,
-    "yorigin": 0,
->>>>>>> Bohan
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -90,9 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-<<<<<<< HEAD
   "width": 128,
-=======
-  "width": 100,
->>>>>>> Bohan
 }

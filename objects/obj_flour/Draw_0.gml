@@ -4,19 +4,11 @@
 draw_self();
 draw_set_font(Font1);
 draw_set_color(c_black);
-<<<<<<< HEAD
 if num_flour < 1000 { draw_text(x+25, y+10, num_flour); }
-=======
-if num_flour < 1000 { draw_text(x+20, y+10, num_flour); }
->>>>>>> Bohan
 else { 
 	flour_adapted = floor(num_flour/100)/10;
 	flour_adapted = string(flour_adapted) + "k";
 	flour_adapted = string_delete(flour_adapted, string_length(flour_adapted)-1, 1);
-<<<<<<< HEAD
 	draw_text(x+25, y+10, flour_adapted);
-=======
-	draw_text(x+20, y+10, flour_adapted);
->>>>>>> Bohan
 }
 
