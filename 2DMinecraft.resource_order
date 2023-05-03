@@ -22,6 +22,7 @@
     {"name":"obj_cloud","order":6,"path":"objects/obj_cloud/obj_cloud.yy",},
     {"name":"obj_hoe","order":8,"path":"objects/obj_hoe/obj_hoe.yy",},
     {"name":"obj_seeds","order":9,"path":"objects/obj_seeds/obj_seeds.yy",},
+    {"name":"obj_chickenman","order":18,"path":"objects/obj_chickenman/obj_chickenman.yy",},
     {"name":"obj_inventory","order":4,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"obj_cake","order":23,"path":"objects/obj_cake/obj_cake.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
@@ -31,7 +32,6 @@
     {"name":"obj_cow","order":1,"path":"objects/obj_cow/obj_cow.yy",},
     {"name":"spr_oven_list","order":30,"path":"sprites/spr_oven_list/spr_oven_list.yy",},
     {"name":"obj_wall","order":10,"path":"objects/obj_wall/obj_wall.yy",},
-
     {"name":"spr_anything","order":12,"path":"sprites/spr_anything/spr_anything.yy",},
     {"name":"spr_dirt","order":3,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"obj_chicken","order":19,"path":"objects/obj_chicken/obj_chicken.yy",},
@@ -49,6 +49,7 @@
     {"name":"spr_oven_button","order":31,"path":"sprites/spr_oven_button/spr_oven_button.yy",},
     {"name":"obj_dirt","order":3,"path":"objects/obj_dirt/obj_dirt.yy",},
     {"name":"spr_apple_tree","order":8,"path":"sprites/spr_apple_tree/spr_apple_tree.yy",},
+    {"name":"spr_chickenman","order":24,"path":"sprites/spr_chickenman/spr_chickenman.yy",},
     {"name":"obj_egg","order":14,"path":"objects/obj_egg/obj_egg.yy",},
     {"name":"spr_oven","order":25,"path":"sprites/spr_oven/spr_oven.yy",},
     {"name":"obj_wheat","order":11,"path":"objects/obj_wheat/obj_wheat.yy",},
@@ -57,7 +58,9 @@
     {"name":"obj_tree","order":7,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"spr_wind_other","order":9,"path":"sprites/spr_wind_other/spr_wind_other.yy",},
     {"name":"spr_cake","order":22,"path":"sprites/spr_cake/spr_cake.yy",},
+
     {"name":"Sprite28","order":29,"path":"sprites/Sprite28/Sprite28.yy",},
+
     {"name":"spr_garbage","order":15,"path":"sprites/spr_garbage/spr_garbage.yy",},
     {"name":"spr_applepie","order":28,"path":"sprites/spr_applepie/spr_applepie.yy",},
     {"name":"spr_man","order":2,"path":"sprites/spr_man/spr_man.yy",},

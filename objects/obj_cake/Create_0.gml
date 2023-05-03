@@ -1,1 +1,0 @@
-num_cakes = 0
