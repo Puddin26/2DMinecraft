@@ -16,3 +16,8 @@ dead = false;
 //hunger decreaser
 alarm[0] = 120*room_speed;
 
+// oven_list
+oven_y = room_height / 2 - 100;
+oven_x = room_width / 2 - 250;
+instance_create_layer(oven_x, oven_y, "oven", obj_oven_list);
+obj_oven_list.visible = false;

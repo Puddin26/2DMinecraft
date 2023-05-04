@@ -22,6 +22,7 @@
     {"name":"obj_hoe","order":8,"path":"objects/obj_hoe/obj_hoe.yy",},
     {"name":"obj_seeds","order":9,"path":"objects/obj_seeds/obj_seeds.yy",},
     {"name":"obj_chickenman","order":18,"path":"objects/obj_chickenman/obj_chickenman.yy",},
+    {"name":"snd_fire","order":1,"path":"sounds/snd_fire/snd_fire.yy",},
     {"name":"obj_inventory","order":4,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"smilk","order":18,"path":"sprites/smilk/smilk.yy",},
