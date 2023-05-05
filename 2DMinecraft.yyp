@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"spr_chicken","path":"sprites/spr_chicken/spr_chicken.yy",},},
@@ -51,11 +51,13 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_applepie","path":"sprites/spr_applepie/spr_applepie.yy",},},
     {"id":{"name":"spr_bubble_right_1","path":"sprites/spr_bubble_right_1/spr_bubble_right_1.yy",},},
+    {"id":{"name":"spr_Inventory_Base","path":"sprites/spr_Inventory_Base/spr_Inventory_Base.yy",},},
     {"id":{"name":"obj_applepie","path":"objects/obj_applepie/obj_applepie.yy",},},
     {"id":{"name":"spr_anything","path":"sprites/spr_anything/spr_anything.yy",},},
     {"id":{"name":"spr_bubble_right","path":"sprites/spr_bubble_right/spr_bubble_right.yy",},},
     {"id":{"name":"spr_dirt","path":"sprites/spr_dirt/spr_dirt.yy",},},
     {"id":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"spr_bubble_left","path":"sprites/spr_bubble_left/spr_bubble_left.yy",},},
     {"id":{"name":"spr_chick","path":"sprites/spr_chick/spr_chick.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
@@ -95,6 +97,7 @@
     {"id":{"name":"obj_flour","path":"objects/obj_flour/obj_flour.yy",},},
     {"id":{"name":"obj_chick","path":"objects/obj_chick/obj_chick.yy",},},
     {"id":{"name":"obj_chicken_checker","path":"objects/obj_chicken_checker/obj_chicken_checker.yy",},},
+    {"id":{"name":"spr_Inventory_Selected","path":"sprites/spr_Inventory_Selected/spr_Inventory_Selected.yy",},},
     {"id":{"name":"spr_windmill","path":"sprites/spr_windmill/spr_windmill.yy",},},
   ],
   "RoomOrderNodes": [
