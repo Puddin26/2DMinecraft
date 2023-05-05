@@ -33,6 +33,7 @@ if in_range {
 	draw_rectangle(x_origin, y_origin, x_origin+40, y_origin+40, true);
 }
 
+/*
 x = x_origin;
 y = y_origin;
 if (x != xprevious or y != yprevious) and in_range and draw { audio_play_sound(snd_thud, 1, false); }

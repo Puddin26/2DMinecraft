@@ -11,6 +11,7 @@ displacement = block_y - obj_player.y;
 distance_y = sign(displacement) * displacement;
 if distance_x*distance_x + distance_y*distance_y < 40000 { in_range = true;}
 */
+
 if point_distance(obj_player.x, obj_player.y, mouse_x, mouse_y)<80 { in_range = true;}
 else { in_range = false; }
 x_origin = mouse_x-mouse_x%40;
@@ -18,13 +19,13 @@ y_origin = mouse_y-mouse_y%40;
 
 x = x_origin;
 y = y_origin;
-if (x != xprevious or y != yprevious) and in_range {
-	audio_play_sound(snd_thud, 1, false);
-}
+
+//if (x != xprevious or y != yprevious) and in_range {audio_play_sound(snd_thud, 1, false);}
 
 switch (items) {
 	case (Items.HOE):
 		if mouse_check_button_released(mb_left) and !position_meeting(mouse_x, mouse_y, obj_dirt) and in_range {
+			audio_play_sound(snd_hoe,1, false)
 			instance_create_layer(x_origin, y_origin, "Ground", obj_dirt);
 		}
 		else {

@@ -8,6 +8,9 @@ switch (facing){
 			sprite_index = spr_walkdown
 			image_speed = 1
 		}
+		if mouse_check_button(mb_left){
+			sprite_index = spr_actiondown
+		}
 	break;
 	
 	case(face.up):
@@ -15,6 +18,9 @@ switch (facing){
 		if keyboard_check(ord("W")) {
 			sprite_index = spr_walkup
 			image_speed = 1
+		}
+		if mouse_check_button(mb_left){
+			sprite_index = spr_actionup
 		}
 	break;
 	
@@ -24,6 +30,9 @@ switch (facing){
 			sprite_index = spr_walkleft
 			image_speed = 1
 		}
+		if mouse_check_button(mb_left){
+			sprite_index = spr_actionleft
+		}
 	break;
 	
 	case(face.right):
@@ -32,6 +41,9 @@ switch (facing){
 			sprite_index = spr_walkright
 			image_speed = 1
 		}
+		if mouse_check_button(mb_left){
+			sprite_index = spr_actionright
+		}
 	break;
-	
 }
+

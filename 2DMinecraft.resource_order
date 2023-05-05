@@ -89,6 +89,7 @@
     {"name":"obj_flour","order":12,"path":"objects/obj_flour/obj_flour.yy",},
     {"name":"spr_stillright","order":39,"path":"sprites/spr_stillright/spr_stillright.yy",},
     {"name":"obj_chick","order":15,"path":"objects/obj_chick/obj_chick.yy",},
+    {"name":"snd_background","order":3,"path":"sounds/snd_background/snd_background.yy",},
     {"name":"obj_chicken_checker","order":20,"path":"objects/obj_chicken_checker/obj_chicken_checker.yy",},
     {"name":"spr_Inventory_Selected","order":35,"path":"sprites/spr_Inventory_Selected/spr_Inventory_Selected.yy",},
     {"name":"spr_windmill","order":17,"path":"sprites/spr_windmill/spr_windmill.yy",},
