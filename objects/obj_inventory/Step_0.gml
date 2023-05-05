@@ -25,6 +25,7 @@ if (x != xprevious or y != yprevious) and in_range {
 switch (items) {
 	
 	case (Items.HOE):
+		obj_hoe.x = x; obj_hoe.y = y;
 		if mouse_check_button(mb_left) and !position_meeting(mouse_x, mouse_y, obj_dirt) and in_range {
 			instance_create_layer(x_origin, y_origin, "Ground", obj_dirt);
 		}
@@ -48,6 +49,7 @@ switch (items) {
 		}
 		break;
 	case (Items.SEEDS):
+		obj_seeds.x = x; obj_seeds.y = y;
 		with obj_dirt {
 			if mouse_check_button(mb_left) and position_meeting(mouse_x, mouse_y, self) and obj_inventory.in_range
 			and obj_seeds.num_seeds > 0 {
@@ -58,7 +60,7 @@ switch (items) {
 			}
 		}
 		break;
-	case (Items.BUCKET):
+	case (Items.NONE):
 		break;
 }
 
