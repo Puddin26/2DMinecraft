@@ -18,6 +18,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_chicken","order":20,"path":"sprites/spr_chicken/spr_chicken.yy",},
     {"name":"spr_oven","order":25,"path":"sprites/spr_oven/spr_oven.yy",},
+    {"name":"obj_tutorial","order":21,"path":"objects/obj_tutorial/obj_tutorial.yy",},
     {"name":"obj_cloud","order":6,"path":"objects/obj_cloud/obj_cloud.yy",},
     {"name":"obj_hoe","order":8,"path":"objects/obj_hoe/obj_hoe.yy",},
     {"name":"obj_seeds","order":9,"path":"objects/obj_seeds/obj_seeds.yy",},
@@ -49,6 +50,7 @@
     {"name":"obj_windmill","order":13,"path":"objects/obj_windmill/obj_windmill.yy",},
     {"name":"obj_bubble_right","order":24,"path":"objects/obj_bubble_right/obj_bubble_right.yy",},
     {"name":"spr_hoe","order":10,"path":"sprites/spr_hoe/spr_hoe.yy",},
+    {"name":"Fn_tutorial","order":1,"path":"fonts/Fn_tutorial/Fn_tutorial.yy",},
     {"name":"spr_apple","order":21,"path":"sprites/spr_apple/spr_apple.yy",},
     {"name":"obj_oven","order":21,"path":"objects/obj_oven/obj_oven.yy",},
     {"name":"obj_dirt","order":3,"path":"objects/obj_dirt/obj_dirt.yy",},

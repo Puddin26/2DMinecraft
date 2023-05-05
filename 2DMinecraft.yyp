@@ -30,10 +30,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"spr_chicken","path":"sprites/spr_chicken/spr_chicken.yy",},},
+    {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"spr_oven","path":"sprites/spr_oven/spr_oven.yy",},},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"obj_windmill","path":"objects/obj_windmill/obj_windmill.yy",},},
     {"id":{"name":"obj_bubble_right","path":"objects/obj_bubble_right/obj_bubble_right.yy",},},
     {"id":{"name":"spr_hoe","path":"sprites/spr_hoe/spr_hoe.yy",},},
+    {"id":{"name":"Fn_tutorial","path":"fonts/Fn_tutorial/Fn_tutorial.yy",},},
     {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},},
     {"id":{"name":"obj_oven","path":"objects/obj_oven/obj_oven.yy",},},
     {"id":{"name":"obj_dirt","path":"objects/obj_dirt/obj_dirt.yy",},},

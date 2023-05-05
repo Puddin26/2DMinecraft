@@ -9,12 +9,12 @@ randomize()
 
 if (state = states3.free){
 // moving every few seconds
-	if timer != room_speed * 3 {
+	if timer != room_speed * 3 and num_movements > 0 {
 	timer ++
 	moving = false
 	}
-	else {
-		if alarm[0] = -1{
+	else if timer = room_speed*3 {
+		if alarm[0] = -1 {
 			alarm[0] = room_speed*3
 		}
 		if (!moving){
@@ -24,7 +24,13 @@ if (state = states3.free){
 		y += lengthdir_y(spd, dir)
 		moving = true
 	}
-// allow player to get milk
+	else if num_movements = 0 {
+		if keyboard_check_pressed(vk_space) and place_meeting(x, y, obj_player) and obj_seeds.num_seeds > 0 {
+			num_movements = 3;
+			obj_seeds.num_seeds -= 1;
+		}
+	}
+// allow player to get seeds
 	if (distance_to_object(obj_player) < 3){
 		if keyboard_check_released(vk_space){
 			obj_egg.num_eggs += 1;

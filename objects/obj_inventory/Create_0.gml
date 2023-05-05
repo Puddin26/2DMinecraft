@@ -5,8 +5,9 @@ enum Items
 {
 	HOE,
 	SEEDS,
-	BUCKET,
+	NONE
 }
 
 items = Items.HOE;
 draw = false;
+can_collect = false;
