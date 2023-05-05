@@ -9,6 +9,8 @@ instance_create_layer(x, y, "Player", obj_ghost);
 
 hunger = 100
 hp = 100 
+//orrrrrrR
+//cow_efficiency and chicken_efficeincy
 
 dead = false;
 
