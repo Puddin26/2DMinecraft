@@ -4,26 +4,21 @@ if instance_exists(obj_dirt) {
 show_debug_message(string(instance_number(obj_dirt))); }
 
 
-if place_meeting(x, y, obj_seeds) and keyboard_check_pressed(vk_space) {
-	obj_inventory.items = Items.SEEDS;
+//inventory rotation
+if obj_inventory.items != Items.SEEDS {
+	if place_meeting(x, y, obj_seeds) and keyboard_check_pressed(vk_space){ obj_inventory.items = Items.SEEDS;}
 }
-else if place_meeting(x, y, obj_hoe) and keyboard_check_pressed(vk_space) {
-	obj_inventory.items = Items.HOE;
+else if obj_inventory.items != Items.HOE {
+	if place_meeting(x, y, obj_hoe) and keyboard_check_pressed(vk_space) { obj_inventory.items = Items.HOE;}
 }
+else { obj_inventory.items = Items.NONE }
 
 
 depth = -y;
 
-//camera_set_view_pos(view_camera[0],
-//x-(camera_get_view_height(view_camera[0])/2), 
-//y-(camera_get_view_height(view_camera[0])/2))
+
 
 movement_speed = 3;
-//if(keyboard_check(vk_right) or keyboard_check(vk_left) or keyboard_check(vk_up) or keyboard_check(vk_down)){
-//	sprite_index = sp_manwalking}
-//else {
-//	sprite_index = sp_man
-//	}
 
 if keyboard_check(ord("D")) { spd[0]=1; image_xscale *= -1; }
 else if keyboard_check(ord("A")) { spd[0]=-1; image_xscale *= 1;}
@@ -42,17 +37,12 @@ if(spd[0] != 0 or spd[1] != 0){
 
 spd[0]*=movement_speed
 spd[1]*=movement_speed
-
 x+=spd[0]
 y+=spd[1]
-
 if !place_meeting(x, y, obj_wall) {
 	x-=spd[0]
 	spd[0] = 0
 }
-
-//y+=spd[1]
-
 if !place_meeting(x, y, obj_wall) {
 	y-=spd[1]
 	spd[1] = 0
