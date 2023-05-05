@@ -1,7 +1,8 @@
+/*
 block_x = mouse_x - mouse_x%20
 if block_x%40 = 0 { block_x += 20 }
 
-block_y = mouse_y - mouse_y%20
+block_y = mouse_y - mouse_y%20 
 if block_y%40 = 0 { block_y += 20 }
 
 displacement = block_x - obj_player.x;
@@ -9,6 +10,8 @@ distance_x = sign(displacement) * displacement;
 displacement = block_y - obj_player.y;
 distance_y = sign(displacement) * displacement;
 if distance_x*distance_x + distance_y*distance_y < 40000 { in_range = true;}
+*/
+if point_distance(obj_player.x, obj_player.y, mouse_x, mouse_y)<80 { in_range = true;}
 else { in_range = false; }
 x_origin = mouse_x-mouse_x%40;
 y_origin = mouse_y-mouse_y%40;

@@ -6,7 +6,6 @@ show_debug_message(string(instance_number(obj_dirt))); }
 
 
 
-
 depth = -y;
 
 //camera_set_view_pos(view_camera[0],
@@ -20,13 +19,13 @@ movement_speed = 3;
 //	sprite_index = sp_man
 //	}
 
-if keyboard_check(ord("D")) { spd[0]=1; image_xscale *= -1; }
-else if keyboard_check(ord("A")) { spd[0]=-1; image_xscale *= 1;}
+if keyboard_check(ord("D")) { spd[0]=1;  facing = face.right}
+else if keyboard_check(ord("A")) { spd[0]=-1;  facing = face.left}
 else {spd[0]=0}
 
 
-if keyboard_check(ord("S")) {spd[1]= 1}
-else if keyboard_check(ord("W")) {spd[1]= -1}
+if keyboard_check(ord("S")) {spd[1]= 1; facing = face.down}
+else if keyboard_check(ord("W")) {spd[1]= -1; facing = face.up}
 else {spd[1]=0}
 
 if(spd[0] != 0 or spd[1] != 0){
