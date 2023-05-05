@@ -39,6 +39,7 @@ if place_meeting(x, y, obj_cow){
 //oven
 if place_meeting(x, y, obj_oven){
 	draw_set_color(c_white);
+	draw_set_font(Fn_tutorial);
 	draw_text_transformed(x+5, y-4, "press M to use oven",  0.5, 0.5, 0);
 	if	keyboard_check(ord("M")){
 		obj_oven_list.visible = true;
