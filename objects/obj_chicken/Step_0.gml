@@ -1,20 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = clamp(x, 15, room_width-15)
-y = clamp(y, 15, room_height-15)
+x = clamp(x, 125,1273)
+y = clamp(y, 125, 670)
 depth = -y;
 
 randomize()
 
 if (state = states3.free){
 // moving every few seconds
-	if timer != room_speed * 3 and num_movements > 0 {
+	if timer != room_speed * 3 {
 	timer ++
 	moving = false
 	}
-	else if timer = room_speed*3 {
-		if alarm[0] = -1 {
+	else {
+		if alarm[0] = -1{
 			alarm[0] = room_speed*3
 		}
 		if (!moving){
@@ -24,13 +24,7 @@ if (state = states3.free){
 		y += lengthdir_y(spd, dir)
 		moving = true
 	}
-	else if num_movements = 0 {
-		if keyboard_check_pressed(vk_space) and place_meeting(x, y, obj_player) and obj_seeds.num_seeds > 0 {
-			num_movements = 3;
-			obj_seeds.num_seeds -= 1;
-		}
-	}
-// allow player to get seeds
+// allow player to get milk
 	if (distance_to_object(obj_player) < 3){
 		if keyboard_check_released(vk_space){
 			obj_egg.num_eggs += 1;

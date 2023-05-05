@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_font(Font1);
-draw_set_color(c_black);
+draw_set_color(c_white);
 if num_wheat < 1000 { draw_text(x+10, y+15, num_wheat); }
 else { 
 	wheat_adapted = floor(num_wheat/100)/10;

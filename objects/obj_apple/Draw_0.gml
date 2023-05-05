@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_font(Font1);
-draw_set_color(c_black);
+draw_set_color(c_white);
 if num_apples < 1000 { draw_text(x+10, y+15, num_apples); }
 else { 
 	apples_adapted = floor(num_apples/100)/10;

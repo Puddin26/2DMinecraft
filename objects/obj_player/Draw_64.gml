@@ -35,7 +35,6 @@ if place_meeting(x, y, obj_cow){
 	}
 }
 
-
 //oven
 if place_meeting(x, y, obj_oven){
 	draw_set_color(c_white);

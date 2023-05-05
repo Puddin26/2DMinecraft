@@ -15,4 +15,3 @@ enum states3
 state = states.free
 
 has_egg = true
-num_movements = 100;

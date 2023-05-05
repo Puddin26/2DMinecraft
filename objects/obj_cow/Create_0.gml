@@ -4,7 +4,6 @@
 timer = 0 
 spd = 1 
 moving = false
-num_movements = 100;
 
 enum states
 {

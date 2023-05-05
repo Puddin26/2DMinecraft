@@ -1,5 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
+enum face
+{
+	up,
+	down,
+	left,
+	right
+}
+
+facing = face.down
 
 randomize();
 instance_create_layer(x, y, "Player", obj_ghost);
@@ -9,8 +18,6 @@ instance_create_layer(x, y, "Player", obj_ghost);
 
 hunger = 100
 hp = 100 
-//orrrrrrR
-//cow_efficiency and chicken_efficeincy
 
 dead = false;
 

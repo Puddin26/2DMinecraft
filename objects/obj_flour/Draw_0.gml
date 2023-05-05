@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_font(Font1);
-draw_set_color(c_black);
+draw_set_color(c_white);
 if num_flour < 1000 { draw_text(x+25, y+10, num_flour); }
 else { 
 	flour_adapted = floor(num_flour/100)/10;
